@@ -1,0 +1,26 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 120px repeat(6, 1fr);
+    grid-gap: 1vw;
+    width: 600px;
+}
+
+button{
+    height: 120px;
+}
+
+.result {
+    grid-column: 1/span 4;
+    grid-row: 1/2;
+    background-color: rgba(189, 189, 189, 0.34);
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 50px;
+    padding: 20px 10px;
+}
+
+.result-button{
+    grid-column: 3/5;
+    grid-row: 6/7;
+}
